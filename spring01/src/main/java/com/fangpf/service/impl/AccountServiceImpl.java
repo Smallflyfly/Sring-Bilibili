@@ -14,8 +14,12 @@ public class AccountServiceImpl implements AccountService {
     private AccountDao accountDao = new AccountDaoImpl();
 //    private AccountDao accountDao = (AccountDao) BeanFactory.getBean("accountDao");
 
+    public AccountServiceImpl(){
+        System.out.println("对象创建了");
+    }
+
     @Override
     public void saveAccount() {
-        accountDao.saveAccount();
+        System.out.println("saveAccount方法执行了");
     }
 }

@@ -2,34 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f1be22e-2a1b-404b-99d3-cde2ce74bf35" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springDI/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springDI/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springDI/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springDI/src/main/java/com/fangpf/dao/AccountDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springDI/src/main/java/com/fangpf/dao/impl/AccountDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springDI/src/main/java/com/fangpf/service/AccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springDI/src/main/java/com/fangpf/service/impl/AccountServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springDI/src/main/java/com/fangpf/ui/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springDI/src/main/resources/bean.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springannoIOC/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springannoIOC/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springannoIOC/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springannoIOC/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springannoIOC/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springannoIOC/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springannoIOC/springannoIOC.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springannoIOC/src/main/java/com/fangpf/dao/AccountDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springannoIOC/src/main/java/com/fangpf/dao/impl/AccountDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springannoIOC/src/main/java/com/fangpf/dao/impl/AccountDaoImpl2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springannoIOC/src/main/java/com/fangpf/service/AccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springannoIOC/src/main/java/com/fangpf/service/impl/AccountServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springannoIOC/src/main/java/com/fangpf/ui/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springannoIOC/src/main/resources/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account_anno_ioc/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account_anno_ioc/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account_anno_ioc/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account_anno_ioc/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account_anno_ioc/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account_anno_ioc/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account_anno_ioc/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account_anno_ioc/account_anno_ioc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account_anno_ioc/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account_anno_ioc/src/main/java/com/fangpf/dao/AccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account_anno_ioc/src/main/java/com/fangpf/dao/impl/AccountDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account_anno_ioc/src/main/java/com/fangpf/domian/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account_anno_ioc/src/main/java/com/fangpf/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account_anno_ioc/src/main/java/com/fangpf/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account_anno_ioc/src/main/resources/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account_anno_ioc/src/test/java/com/fangpf/test/AccountServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account_anno_ioc/target/classes/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account_anno_ioc/target/classes/com/fangpf/dao/AccountDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account_anno_ioc/target/classes/com/fangpf/dao/impl/AccountDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account_anno_ioc/target/classes/com/fangpf/domian/Account.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account_anno_ioc/target/classes/com/fangpf/service/AccountService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account_anno_ioc/target/classes/com/fangpf/service/impl/AccountServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account_anno_ioc/target/test-classes/com/fangpf/test/AccountServiceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/6fd472d4-0236-472c-b25f-e680e2322cdd.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fangpf/dao/AccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fangpf/dao/impl/AccountDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fangpf/domian/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fangpf/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fangpf/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/fangpf/test/AccountServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fangpf/dao/AccountDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fangpf/dao/impl/AccountDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fangpf/domian/Account.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fangpf/service/AccountService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fangpf/service/impl/AccountServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/fangpf/test/AccountServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,6 +50,51 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="fangpf" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="fangpf" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="fangpf" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="spring: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="fangpf" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="spring: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="account: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -49,8 +107,11 @@
     </option>
   </component>
   <component name="ProjectId" id="1REC1FbxxOyuFWz7pUAf1IgSxYQ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -70,6 +131,54 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="AccountServiceTest.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="account_xmlioc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fangpf.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fangpf.test" />
+      <option name="MAIN_CLASS_NAME" value="com.fangpf.test.AccountServiceTest" />
+      <option name="METHOD_NAME" value="testFindAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AccountServiceTest.testFindAll" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@739aad35" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@739aad35" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@7f083dab" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@739aad35" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@263ca0f6" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -80,7 +189,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569222651856</updated>
-      <workItem from="1569222653717" duration="531000" />
+      <workItem from="1569222653717" duration="6419000" />
     </task>
     <servers />
   </component>

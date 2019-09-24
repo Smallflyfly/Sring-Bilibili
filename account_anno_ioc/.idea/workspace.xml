@@ -2,48 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14176906-8331-42fc-bfaf-41f1e46dc93d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account_anno_ioc.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fangpf/dao/AccountDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fangpf/dao/impl/AccountDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fangpf/domian/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fangpf/service/AccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fangpf/service/impl/AccountServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bean.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/fangpf/test/AccountServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/bean.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fangpf/dao/AccountDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fangpf/dao/impl/AccountDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fangpf/domian/Account.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fangpf/service/AccountService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/fangpf/service/impl/AccountServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/fangpf/test/AccountServiceTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../account_xmlioc/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../account_xmlioc/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../account_xmlioc/.idea/dataSources/6fd472d4-0236-472c-b25f-e680e2322cdd.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../account_xmlioc/src/main/java/com/fangpf/dao/AccountDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../account_xmlioc/src/main/java/com/fangpf/dao/impl/AccountDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../account_xmlioc/src/main/java/com/fangpf/domian/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../account_xmlioc/src/main/java/com/fangpf/service/AccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../account_xmlioc/src/main/java/com/fangpf/service/impl/AccountServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../account_xmlioc/src/main/resources/bean.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../account_xmlioc/src/test/java/com/fangpf/test/AccountServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../account_xmlioc/target/classes/bean.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../account_xmlioc/target/classes/com/fangpf/dao/AccountDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../account_xmlioc/target/classes/com/fangpf/dao/impl/AccountDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../account_xmlioc/target/classes/com/fangpf/domian/Account.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../account_xmlioc/target/classes/com/fangpf/service/AccountService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../account_xmlioc/target/classes/com/fangpf/service/impl/AccountServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../account_xmlioc/target/test-classes/com/fangpf/test/AccountServiceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account_anno_ioc_withoutxml/src/main/java/config/JdbcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../account_anno_ioc_withoutxml/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../account_anno_ioc_withoutxml/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../account_anno_ioc_withoutxml/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../account_anno_ioc_withoutxml/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../account_anno_ioc_withoutxml/account_anno_ioc_withoutxml.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../account_anno_ioc_withoutxml/account_anno_ioc_withoutxml.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../account_anno_ioc_withoutxml/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../account_anno_ioc_withoutxml/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../account_anno_ioc_withoutxml/src/main/java/config/SpringConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../account_anno_ioc_withoutxml/src/main/java/config/SpringConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../account_anno_ioc_withoutxml/src/main/resources/bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../account_anno_ioc_withoutxml/src/main/resources/bean.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../account_anno_ioc_withoutxml/src/test/java/com/fangpf/test/AccountServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../account_anno_ioc_withoutxml/src/test/java/com/fangpf/test/AccountServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../account_anno_ioc_withoutxml/target/classes/com/fangpf/dao/AccountDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../account_anno_ioc_withoutxml/target/classes/com/fangpf/dao/AccountDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../account_anno_ioc_withoutxml/target/classes/com/fangpf/dao/impl/AccountDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../account_anno_ioc_withoutxml/target/classes/com/fangpf/dao/impl/AccountDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../account_anno_ioc_withoutxml/target/classes/com/fangpf/domian/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/../account_anno_ioc_withoutxml/target/classes/com/fangpf/domian/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../account_anno_ioc_withoutxml/target/classes/com/fangpf/service/AccountService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../account_anno_ioc_withoutxml/target/classes/com/fangpf/service/AccountService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../account_anno_ioc_withoutxml/target/classes/com/fangpf/service/impl/AccountServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../account_anno_ioc_withoutxml/target/classes/com/fangpf/service/impl/AccountServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../account_anno_ioc_withoutxml/target/classes/config/SpringConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/../account_anno_ioc_withoutxml/target/classes/config/SpringConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../account_anno_ioc_withoutxml/target/test-classes/com/fangpf/test/AccountServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../account_anno_ioc_withoutxml/target/test-classes/com/fangpf/test/AccountServiceTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../account_xmlioc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../account_xmlioc/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring01/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -211,7 +186,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569228474641</updated>
-      <workItem from="1569228477067" duration="3151000" />
+      <workItem from="1569228477067" duration="5082000" />
     </task>
     <servers />
   </component>

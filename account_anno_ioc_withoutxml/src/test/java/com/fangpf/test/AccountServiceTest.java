@@ -8,12 +8,14 @@ package com.fangpf.test;
 
 import com.fangpf.domian.Account;
 import com.fangpf.service.AccountService;
+import config.JdbcConfig;
+import config.SpringConfiguration;
 import org.junit.Before;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import javax.swing.plaf.PanelUI;
 import java.sql.SQLException;
 import java.util.List;
 
@@ -30,8 +32,12 @@ public class AccountServiceTest {
     @Before
     public void init(){
         //1.获取容器
-        ac = new ClassPathXmlApplicationContext("bean.xml");
+//        ac = new ClassPathXmlApplicationContext("bean.xml");
+//        ac = new AnnotationConfigApplicationContext(SpringConfiguration.class, JdbcConfig.class);
+        ac = new AnnotationConfigApplicationContext(SpringConfiguration.class);
+
         //2.得到业务层对象
+
         as = ac.getBean("accountService", AccountService.class);
     }
 
@@ -61,7 +67,7 @@ public class AccountServiceTest {
 //        ApplicationContext ac = new ClassPathXmlApplicationContext("bean.xml");
 //        AccountService as = ac.getBean("accountService", AccountService.class);
         Account account = new Account();
-        account.setName("Lilei");
+        account.setName("Jack");
         account.setMoney(5000.0f);
         as.saveAccount(account);
     }

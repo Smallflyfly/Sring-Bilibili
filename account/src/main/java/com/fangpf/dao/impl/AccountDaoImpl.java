@@ -50,4 +50,18 @@ public class AccountDaoImpl implements AccountDao {
     public void deleteAccount(Integer id) throws SQLException {
         runner.update("delete from account where id = ?", id);
     }
+
+    @Override
+    public Account findAccountByName(String name) throws Exception {
+        List<Account> accounts = runner.query("select * from account where name = ?", new BeanListHandler<Account>(Account.class), name);
+        if(accounts==null || accounts.size()==0){
+            System.out.println("未查找到用户"+ name +"账户信息");
+            return null;
+        }else if (accounts.size() > 1){
+            throw new Exception("账户不唯一， 账户异常");
+        }
+        else{
+            return accounts.get(0);
+        }
+    }
 }

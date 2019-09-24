@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="14176906-8331-42fc-bfaf-41f1e46dc93d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../account/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../account/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../account/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../account/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../account/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../account/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../account/account.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../account/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../account/src/main/java/com/fangpf/dao/AccountDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../account/src/main/java/com/fangpf/dao/impl/AccountDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../account/src/main/java/com/fangpf/domian/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../account/src/main/java/com/fangpf/service/AccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../account/src/main/java/com/fangpf/service/impl/AccountServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../account/src/main/java/com/fangpf/utils/ConnectUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../account/src/main/resources/bean.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../account/src/test/java/com/fangpf/test/AccountServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../account/target/classes/bean.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../account/target/classes/com/fangpf/dao/AccountDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../account/target/classes/com/fangpf/dao/impl/AccountDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../account/target/classes/com/fangpf/domian/Account.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../account/target/classes/com/fangpf/service/AccountService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../account/target/classes/com/fangpf/service/impl/AccountServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../account/target/test-classes/com/fangpf/test/AccountServiceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="52c4a449-9ebd-4527-9cd9-0a001fbc7cf9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fangpf/dao/AccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fangpf/dao/impl/AccountDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fangpf/domian/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fangpf/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fangpf/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fangpf/utils/ConnectUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/fangpf/test/AccountServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fangpf/dao/AccountDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fangpf/dao/impl/AccountDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fangpf/domian/Account.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fangpf/service/AccountService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fangpf/service/impl/AccountServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/fangpf/test/AccountServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../account_anno_ioc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../account_anno_ioc/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../account_anno_ioc_withoutxml/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../account_anno_ioc_withoutxml/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../account_xmlioc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../account_xmlioc/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../account_xmlioc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../account_xmlioc/pom.xml" afterDir="false" />
@@ -45,51 +45,38 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="IgnoredFileRootStore">
-    <option name="generatedRoots">
-      <set>
-        <option value="$PROJECT_DIR$/.idea" />
-      </set>
-    </option>
-  </component>
   <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="localRepository" value="$USER_HOME$/apache-maven-3.6.1/repository" />
-        <option name="mavenHome" value="$USER_HOME$/apache-maven-3.6.1" />
-        <option name="userSettingsFile" value="$USER_HOME$/apache-maven-3.6.1/conf/settings.xml" />
-      </MavenGeneralSettings>
-    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1RENp5xx07OPcBhvHnIA4i6dk44" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="1RGXvs1NMKuDVFBkTXtPkMsVUy0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.fangpf.test" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources" />
-      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -104,25 +91,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AccountServiceTest.testFindAll">
-    <configuration name="AccountServiceTest.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="account_anno_ioc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.fangpf.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.fangpf.test" />
-      <option name="MAIN_CLASS_NAME" value="com.fangpf.test.AccountServiceTest" />
-      <option name="METHOD_NAME" value="testDelete" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.AccountServiceTest.testTransfer">
     <configuration name="AccountServiceTest.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="account_anno_ioc" />
+      <module name="account" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.fangpf.test.*" />
@@ -137,8 +108,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AccountServiceTest.testFindById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="account_anno_ioc" />
+    <configuration name="AccountServiceTest.testFindByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="account" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.fangpf.test.*" />
@@ -147,14 +118,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.fangpf.test" />
       <option name="MAIN_CLASS_NAME" value="com.fangpf.test.AccountServiceTest" />
-      <option name="METHOD_NAME" value="testFindById" />
+      <option name="METHOD_NAME" value="testFindByName" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AccountServiceTest.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="account_anno_ioc" />
+    <configuration name="AccountServiceTest.testTransfer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="account" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.fangpf.test.*" />
@@ -163,23 +134,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.fangpf.test" />
       <option name="MAIN_CLASS_NAME" value="com.fangpf.test.AccountServiceTest" />
-      <option name="METHOD_NAME" value="testInsert" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AccountServiceTest.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="account_anno_ioc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.fangpf.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.fangpf.test" />
-      <option name="MAIN_CLASS_NAME" value="com.fangpf.test.AccountServiceTest" />
-      <option name="METHOD_NAME" value="testUpdate" />
+      <option name="METHOD_NAME" value="testTransfer" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -187,11 +142,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AccountServiceTest.testTransfer" />
         <item itemvalue="JUnit.AccountServiceTest.testFindAll" />
-        <item itemvalue="JUnit.AccountServiceTest.testDelete" />
-        <item itemvalue="JUnit.AccountServiceTest.testUpdate" />
-        <item itemvalue="JUnit.AccountServiceTest.testInsert" />
-        <item itemvalue="JUnit.AccountServiceTest.testFindById" />
+        <item itemvalue="JUnit.AccountServiceTest.testFindByName" />
       </list>
     </recent_temporary>
   </component>
@@ -200,12 +153,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="14176906-8331-42fc-bfaf-41f1e46dc93d" name="Default Changelist" comment="" />
-      <created>1569228474641</created>
+      <changelist id="52c4a449-9ebd-4527-9cd9-0a001fbc7cf9" name="Default Changelist" comment="" />
+      <created>1569294639687</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1569228474641</updated>
-      <workItem from="1569228477067" duration="6213000" />
+      <updated>1569294639687</updated>
+      <workItem from="1569294641783" duration="6628000" />
     </task>
     <servers />
   </component>

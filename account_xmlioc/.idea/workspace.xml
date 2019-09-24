@@ -2,11 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f1be22e-2a1b-404b-99d3-cde2ce74bf35" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../account/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account/account.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account/src/main/java/com/fangpf/dao/AccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account/src/main/java/com/fangpf/dao/impl/AccountDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account/src/main/java/com/fangpf/domian/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account/src/main/java/com/fangpf/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account/src/main/java/com/fangpf/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account/src/main/java/com/fangpf/utils/ConnectUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account/src/main/resources/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account/src/test/java/com/fangpf/test/AccountServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account/target/classes/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account/target/classes/com/fangpf/dao/AccountDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account/target/classes/com/fangpf/dao/impl/AccountDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account/target/classes/com/fangpf/domian/Account.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account/target/classes/com/fangpf/service/AccountService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account/target/classes/com/fangpf/service/impl/AccountServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account/target/test-classes/com/fangpf/test/AccountServiceTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../account_anno_ioc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../account_anno_ioc/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../account_anno_ioc_withoutxml/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../account_anno_ioc_withoutxml/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../account_anno_ioc_withoutxml/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../account_anno_ioc_withoutxml/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../account_anno_ioc_withoutxml/src/test/java/com/fangpf/test/AccountServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../account_anno_ioc_withoutxml/src/test/java/com/fangpf/test/AccountServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fangpf/dao/impl/AccountDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fangpf/dao/impl/AccountDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fangpf/service/impl/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fangpf/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fangpf/test/AccountServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fangpf/test/AccountServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fangpf/dao/AccountDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fangpf/dao/AccountDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fangpf/dao/impl/AccountDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fangpf/dao/impl/AccountDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fangpf/domian/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fangpf/domian/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fangpf/service/AccountService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fangpf/service/AccountService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fangpf/service/impl/AccountServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fangpf/service/impl/AccountServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/fangpf/test/AccountServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/fangpf/test/AccountServiceTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,6 +94,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$USER_HOME$/apache-maven-3.6.1/repository" />
+        <option name="mavenHome" value="$USER_HOME$/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="$USER_HOME$/apache-maven-3.6.1/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
@@ -74,13 +112,15 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.33908045" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -131,11 +171,6 @@
               <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@739aad35" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               <item name="com.intellij.execution.services.ServiceModel$ServiceNode@7f083dab" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@739aad35" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@263ca0f6" type="9fbbdea:ServiceModel$ServiceNode" />
-            </path>
           </expand>
           <select />
         </treeState>
@@ -152,7 +187,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569222651856</updated>
-      <workItem from="1569222653717" duration="7424000" />
+      <workItem from="1569222653717" duration="9822000" />
     </task>
     <servers />
   </component>
@@ -169,5 +204,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

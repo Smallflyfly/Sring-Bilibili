@@ -28,15 +28,26 @@ import java.util.List;
 public class AccountServiceTest {
 
     @Autowired
-    AccountService as = null;
+    private AccountService as = null;
+
 
     @Test
     public void testFindAll() throws SQLException {
-        //3.执行方法
         List<Account> accounts = as.findAllAccount();
         for (Account account:accounts){
             System.out.println(account);
         }
     }
 
+    @Test
+    public void testFindByName() throws Exception {
+        Account account =  as.findAccountByName("Lily");
+        System.out.println(account);
+    }
+
+    @Test
+    public void testTransfer() throws Exception {
+        as.transfer("Jim", "Lily", 1023.8f);
+        testFindAll();
+    }
 }

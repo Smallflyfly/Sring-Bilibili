@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e32f85b8-9d0e-438b-9ad7-56bc9308d147" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/jdbcConfig.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../account_anno_ioc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../account_anno_ioc/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/config/JdbcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/JdbcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/config/SpringConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/SpringConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/bean.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fangpf/test/AccountServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fangpf/test/AccountServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../account_xmlioc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../account_xmlioc/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -134,7 +132,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569234873445</updated>
-      <workItem from="1569234875686" duration="5043000" />
+      <workItem from="1569234875686" duration="6485000" />
     </task>
     <servers />
   </component>

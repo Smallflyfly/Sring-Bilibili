@@ -38,12 +38,19 @@ import java.beans.PropertyVetoException;
  *          value:用于指定其他配置类的字节码
  *          当我们使用Import的注解后，有Import注解的类就是父配置类，而导入的都是子配置类
  *
+ * PropertySource:
+ *   作用：用于指定properties文件位置
+ *   属性：
+ *      value:指定文件的名称和路径
+ *          关键字：classpath表示类路径下
+ *
+ *
  * */
 
 //@Configuration
-    @Import(JdbcConfig.class)
+@Import(JdbcConfig.class)
 @ComponentScan(basePackages = "com.fangpf")
+@PropertySource("classpath:jdbcConfig.properties")
 public class SpringConfiguration {
-
 
 }

@@ -32,7 +32,7 @@ public class AccountServiceTest {
 
 
     @Test
-    public void testFindAll() throws SQLException {
+    public void testFindAll() throws Exception {
         List<Account> accounts = as.findAllAccount();
         for (Account account:accounts){
             System.out.println(account);
@@ -47,7 +47,7 @@ public class AccountServiceTest {
 
     @Test
     public void testTransfer() throws Exception {
-        as.transfer("Jim", "Lily", 1023.8f);
+        as.transfer("Lily", "Jim", 235.78f);
         testFindAll();
     }
 }

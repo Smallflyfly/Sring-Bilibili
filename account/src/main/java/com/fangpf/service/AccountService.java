@@ -16,15 +16,15 @@ import java.util.List;
  * */
 public interface AccountService {
 
-    List<Account> findAllAccount() throws SQLException;
+    List<Account> findAllAccount() throws SQLException, Exception;
 
-    Account findById(Integer id) throws SQLException;
+    Account findById(Integer id) throws SQLException, Exception;
 
-    void saveAccount(Account account) throws SQLException;
+    void saveAccount(Account account) throws SQLException, Exception;
 
-    void updateAccount(Account account) throws SQLException;
+    void updateAccount(Account account) throws Exception;
 
-    void deleteAccount(Integer id) throws SQLException;
+    void deleteAccount(Integer id) throws Exception;
 
     void transfer(String sourceName, String targetName, Float money) throws Exception;
 

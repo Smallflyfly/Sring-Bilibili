@@ -8,11 +8,14 @@
     <bean id="accountService" class="com.fangpf.service.impl.AccountServiceImpl">
         <!-- 注入dao -->
         <property name="accountDao" ref="accountDao"></property>
+        <property name="transactionManager" ref="transactionManager"></property>
     </bean>
 
     <!-- 配置dao对象-->
     <bean id="accountDao" class="com.fangpf.dao.impl.AccountDaoImpl">
         <property name="runner" ref="runner"></property>
+        <!--注入ConnectionUtils-->
+        <property name="connectionUtils" ref="connectionUtils"></property>
     </bean>
 
     <!-- 配置runner对象-->
@@ -29,4 +32,16 @@
         <property name="user" value="root"></property>
         <property name="password" value="fang2831016"></property>
     </bean>
+
+    <!--配置Connection的工具类 ConnectionUtils-->
+    <bean id="connectionUtils" class="com.fangpf.utils.ConnectionUtils">
+        <!--注入数据源-->
+        <property name="dataSource" ref="dataSource"></property>
+    </bean>
+
+    <!--配置事务管理器-->
+    <bean id="transactionManager" class="com.fangpf.utils.TransactionManager">
+        <property name="connectionUtils" ref="connectionUtils"></property>
+    </bean>
+
 </beans>

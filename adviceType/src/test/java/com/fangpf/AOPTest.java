@@ -17,7 +17,7 @@ public class AOPTest {
         AccountService as = (AccountService) ac.getBean("accountService");
         //3、执行方法
         as.saveAccount();
-        as.updateAccount(10);
-        as.deleteAccount();
+//        as.updateAccount(10);
+//        as.deleteAccount();
     }
 }

@@ -2,24 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52c4a449-9ebd-4527-9cd9-0a001fbc7cf9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fangpf/utils/ConnectionUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fangpf/factory/BeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proxy/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proxy/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proxy/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proxy/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proxy/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proxy/proxy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proxy/src/main/java/com/fangpf/proxy/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proxy/src/main/java/com/fangpf/proxy/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proxy/src/main/java/com/fangpf/proxy/impl/ProducerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proxy/target/classes/com/fangpf/clinet/Client$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proxy/target/classes/com/fangpf/clinet/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proxy/target/classes/com/fangpf/proxy/Producer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proxy/target/classes/com/fangpf/proxy/impl/ProducerImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fangpf/dao/impl/AccountDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fangpf/dao/impl/AccountDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fangpf/service/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fangpf/service/AccountService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fangpf/service/impl/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fangpf/service/impl/AccountServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fangpf/utils/ConnectUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bean.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/fangpf/test/AccountServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fangpf/test/AccountServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bean.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fangpf/dao/impl/AccountDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fangpf/dao/impl/AccountDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fangpf/service/AccountService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fangpf/service/AccountService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/fangpf/service/impl/AccountServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fangpf/service/impl/AccountServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/fangpf/test/AccountServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/fangpf/test/AccountServiceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../account_anno_ioc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../account_anno_ioc/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../account_anno_ioc_withoutxml/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../account_anno_ioc_withoutxml/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../account_xmlioc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../account_xmlioc/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,8 +58,11 @@
     </option>
   </component>
   <component name="ProjectId" id="1RGXvs1NMKuDVFBkTXtPkMsVUy0" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -87,7 +89,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AccountServiceTest.testFindAll">
+  <component name="RunManager" selected="JUnit.AccountServiceTest.testTransfer">
     <configuration name="AccountServiceTest.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="account" />
       <extension name="coverage">
@@ -138,8 +140,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AccountServiceTest.testFindAll" />
         <item itemvalue="JUnit.AccountServiceTest.testTransfer" />
+        <item itemvalue="JUnit.AccountServiceTest.testFindAll" />
         <item itemvalue="JUnit.AccountServiceTest.testFindByName" />
       </list>
     </recent_temporary>
@@ -156,7 +158,7 @@
       <updated>1569294639687</updated>
       <workItem from="1569294641783" duration="6789000" />
       <workItem from="1569322801298" duration="7000" />
-      <workItem from="1569322853376" duration="6399000" />
+      <workItem from="1569322853376" duration="9298000" />
     </task>
     <servers />
   </component>
@@ -175,5 +177,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

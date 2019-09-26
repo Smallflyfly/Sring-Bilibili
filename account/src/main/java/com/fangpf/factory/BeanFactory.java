@@ -5,5 +5,10 @@ package com.fangpf.factory;
  * @version 1.0
  * @date 2019-09-25 14:57
  */
+
+/**
+ * @description:
+ * yy
+ */
 public class BeanFactory {
 }

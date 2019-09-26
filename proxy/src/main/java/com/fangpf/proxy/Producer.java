@@ -6,4 +6,6 @@ package com.fangpf.proxy;
  * @date 2019-09-25 11:12
  */
 public interface Producer {
+    public void saleProducer(float money);
+    public void afterService(float money);
 }

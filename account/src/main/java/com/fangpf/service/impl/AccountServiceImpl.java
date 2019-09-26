@@ -32,123 +32,50 @@ public class AccountServiceImpl implements AccountService {
 
     @Override
     public List<Account> findAllAccount() throws Exception {
-        try {
-            //1.开启事务
-            transactionManager.beginTransaction();
-            //2.执行操作
-            List<Account> accounts = accountDao.findAllAccount();
-            //3.提交事务
-            transactionManager.commit();
-            return accounts;
-        } catch (Exception e){
-            //回滚事务
-            transactionManager.rollback();
-            throw new Exception(e);
-        } finally {
-            //释放连接
-            transactionManager.release();
-        }
+        return accountDao.findAllAccount();
     }
 
     @Override
     public Account findById(Integer id) throws Exception {
-        try {
-            transactionManager.beginTransaction();
-            Account account = accountDao.findById(id);
-            transactionManager.commit();
-            return account;
-        } catch (Exception e){
-            transactionManager.rollback();
-            throw new Exception(e);
-        } finally {
-            transactionManager.release();
-        }
+        return accountDao.findById(id);
     }
 
     @Override
     public void saveAccount(Account account) throws Exception {
-        try {
-            transactionManager.beginTransaction();
-            accountDao.saveAccount(account);
-            transactionManager.commit();
-        } catch (Exception e){
-            transactionManager.rollback();
-            throw new Exception(e);
-        } finally {
-            transactionManager.release();
-        }
+        accountDao.saveAccount(account);
     }
 
     @Override
     public void updateAccount(Account account) throws Exception {
-        try {
-            transactionManager.beginTransaction();
-            accountDao.updateAccount(account);
-            transactionManager.commit();
-        } catch (Exception e) {
-            transactionManager.rollback();
-            throw new Exception(e);
-        } finally {
-            transactionManager.release();
-        }
+        accountDao.updateAccount(account);
     }
 
     @Override
     public void deleteAccount(Integer id) throws Exception {
-        try {
-            transactionManager.beginTransaction();
-            accountDao.deleteAccount(id);
-            transactionManager.commit();
-        } catch (Exception e) {
-            transactionManager.rollback();
-            throw new Exception(e);
-        } finally {
-            transactionManager.release();
-        }
         accountDao.deleteAccount(id);
     }
 
     @Override
     public void transfer(String sourceName, String targetName, Float money) throws Exception {
-        try {
-            transactionManager.beginTransaction();
-            //1.根据名称查询转出账户
-            Account sourceAccount = accountDao.findAccountByName(sourceName);
-            //2.根据名称查询转入账户
-            Account targetAccount = accountDao.findAccountByName(targetName);
-            //3.转出账户减钱
-            sourceAccount.setMoney(sourceAccount.getMoney() - money);
+        //1.根据名称查询转出账户
+        Account sourceAccount = accountDao.findAccountByName(sourceName);
+        //2.根据名称查询转入账户
+        Account targetAccount = accountDao.findAccountByName(targetName);
+        //3.转出账户减钱
+        sourceAccount.setMoney(sourceAccount.getMoney() - money);
 
 //            double err = 1/0;
 
-            //4.转入账户加钱
-            targetAccount.setMoney(targetAccount.getMoney() + money);
-            //5.更新转出账户
-            accountDao.updateAccount(sourceAccount);
-            //6.更新转入账户
-            accountDao.updateAccount(targetAccount);
-
-            transactionManager.commit();
-        } catch (Exception e) {
-            transactionManager.rollback();
-            throw new Exception(e);
-        } finally {
-            transactionManager.release();
-        }
+        //4.转入账户加钱
+        targetAccount.setMoney(targetAccount.getMoney() + money);
+        //5.更新转出账户
+        accountDao.updateAccount(sourceAccount);
+        //6.更新转入账户
+        accountDao.updateAccount(targetAccount);
     }
 
     @Override
     public Account findAccountByName(String name) throws Exception {
-        try {
-            transactionManager.beginTransaction();
-            Account account = accountDao.findAccountByName(name);
-            transactionManager.commit();
-            return account;
-        } catch (Exception e) {
-            transactionManager.rollback();
-            throw new Exception(e);
-        } finally {
-            transactionManager.release();
-        }
+        return accountDao.findAccountByName(name);
     }
 }

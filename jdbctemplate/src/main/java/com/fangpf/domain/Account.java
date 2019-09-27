@@ -28,8 +28,8 @@ public class Account implements Serializable {
         this.name = name;
     }
 
-    public Float getMoney(float money) {
-        return this.money;
+    public Float getMoney() {
+        return money;
     }
 
     public void setMoney(Float money) {

@@ -53,18 +53,18 @@ public class JdbcTemplateDemo3 {
  * @description:
  * 定义Account的封装策略
  */
-class AccountRowMapper implements RowMapper<Account>{
-
-    /**
-     * @description:
-     * 把结果集中的数据封装到Account中，然后由spring把每个Acccount加到集合中
-     */
-    public Account mapRow(ResultSet resultSet, int i) throws SQLException {
-        Account account = new Account();
-        account.setId(resultSet.getInt("id"));
-        account.setName(resultSet.getString("name"));
-        account.getMoney(resultSet.getFloat("money"));
-        return account;
-    }
-}
+//class AccountRowMapper implements RowMapper<Account>{
+//
+//    /**
+//     * @description:
+//     * 把结果集中的数据封装到Account中，然后由spring把每个Acccount加到集合中
+//     */
+//    public Account mapRow(ResultSet resultSet, int i) throws SQLException {
+//        Account account = new Account();
+//        account.setId(resultSet.getInt("id"));
+//        account.setName(resultSet.getString("name"));
+//        account.getMoney(resultSet.getFloat("money"));
+//        return account;
+//    }
+//}
 

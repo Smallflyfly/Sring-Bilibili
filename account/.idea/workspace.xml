@@ -2,30 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52c4a449-9ebd-4527-9cd9-0a001fbc7cf9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../account_aoptx/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../account_aoptx/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../account_aoptx/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../account_aoptx/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../account_aoptx/src/main/java/com/fangpf/dao/AccountDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../account_aoptx/src/main/java/com/fangpf/dao/impl/AccountDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../account_aoptx/src/main/java/com/fangpf/domian/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../account_aoptx/src/main/java/com/fangpf/service/AccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../account_aoptx/src/main/java/com/fangpf/service/impl/AccountServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../account_aoptx/src/main/java/com/fangpf/utils/ConnectionUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../account_aoptx/src/main/java/com/fangpf/utils/TransactionManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../account_aoptx/src/main/resources/bean.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../account_aoptx/src/test/java/com/fangpf/test/AccountServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../account_aoptx/target/classes/bean.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../account_aoptx/target/classes/com/fangpf/dao/AccountDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../account_aoptx/target/classes/com/fangpf/dao/impl/AccountDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../account_aoptx/target/classes/com/fangpf/domian/Account.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../account_aoptx/target/classes/com/fangpf/service/AccountService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../account_aoptx/target/classes/com/fangpf/service/impl/AccountServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../account_aoptx/target/classes/com/fangpf/utils/ConnectionUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../account_aoptx/target/classes/com/fangpf/utils/TransactionManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../account_aoptx/target/test-classes/com/fangpf/test/AccountServiceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account_aoptx_anno/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account_aoptx_anno/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account_aoptx_anno/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account_aoptx_anno/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account_aoptx_anno/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account_aoptx_anno/account_aoptx_anno.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account_aoptx_anno/src/main/java/com/fangpf/dao/AccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account_aoptx_anno/src/main/java/com/fangpf/dao/impl/AccountDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account_aoptx_anno/src/main/java/com/fangpf/domian/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account_aoptx_anno/src/main/java/com/fangpf/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account_aoptx_anno/src/main/java/com/fangpf/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account_aoptx_anno/src/main/java/com/fangpf/utils/ConnectionUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account_aoptx_anno/src/main/java/com/fangpf/utils/TransactionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account_aoptx_anno/src/main/resources/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account_aoptx_anno/src/test/java/com/fangpf/test/AccountServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account_aoptx_anno/target/classes/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account_aoptx_anno/target/classes/com/fangpf/dao/AccountDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account_aoptx_anno/target/classes/com/fangpf/dao/impl/AccountDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account_aoptx_anno/target/classes/com/fangpf/domian/Account.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account_aoptx_anno/target/classes/com/fangpf/service/AccountService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account_aoptx_anno/target/classes/com/fangpf/service/impl/AccountServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account_aoptx_anno/target/classes/com/fangpf/utils/ConnectionUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account_aoptx_anno/target/classes/com/fangpf/utils/TransactionManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../account_aoptx_anno/target/test-classes/com/fangpf/test/AccountServiceTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

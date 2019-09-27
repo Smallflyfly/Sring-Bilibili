@@ -6,13 +6,16 @@
 
     <!-- 配置账户持久层-->
     <bean id="accountDao" class="com.fangpf.dao.impl.AccountDaoImpl">
-        <property name="jdbcTemplate" ref="jdbcTemplate"></property>
+        <property name="dataSource" ref="dataSource"></property>
+<!--        <property name="jdbcTemplate" ref="jdbcTemplate"></property>-->
     </bean>
 
-    <!--配置JdbcTemplate-->
+
+    <!--配置JdbcTemplate
     <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
         <property name="dataSource" ref="dataSource"></property>
     </bean>
+    -->
 
     <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
         <property name="driverClassName" value="com.mysql.cj.jdbc.Driver"></property>
